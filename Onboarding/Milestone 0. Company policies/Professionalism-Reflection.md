@@ -2,7 +2,9 @@
 
 ###### Have you ever experienced or witnessed great teamwork and professionalism? What made it effective?
 
-Yes. Splitting the work evenly, constant communication, leader check up in intervals, teammates double checking with each other. 
+Yes. Splitting the work evenly, constant communication, leader check up in intervals, teammates double checking with each other.
+
+Personal example: UEM project for unimelb. Split up different tasks, identify due dates. Although we didn't have a leader, everyone was initiative. Every once in a while, someone will say 'okay we need to do this, this, and this'. Most of the time, people will say "ill do this task", but if not, sometimes a person will just ask someone who didn't do as much 'can you do this section'. We remind each other deadlines and ask if finished on our own part. 
 
 ###### 
 
@@ -20,7 +22,15 @@ Keep being respectful with everyone. Its okay to chat a bit. Makes atmosphere li
 
 ###### How can you prepare effectively for meetings with supervisors and colleagues?
 
-Prepare beforehand. Know whats going to be discussed. Search up any terms or simple processes before the meeting.
+Prepare beforehand. Know what's going to be discussed. Search up any terms or simple processes before the meeting.
+
+
+
+###### Provide practical steps or examples of how you've communicated clearly or respectfully in the past, or plan to in the future.
+
+###### Include examples of how you personally make meetings productive or help create a positive work environment (beyond just 'being respectful').
+
+Made sure everyone gets work. Make sure to say 'good job' when they finished their task. Dont be afraid to criticize their work, but make sure to be polite. Ask for help when you need it. Make sure to ask about teammates work process. See if they are on task.  
 
 ###### 
 
