@@ -4,7 +4,7 @@
 
 ###### What steps can you take to ensure you handle data securely in your daily tasks?
 
-Use password managers, lock laptop if leaving. 
+Use password managers, lock laptop if leaving.
 
 
 
@@ -39,4 +39,16 @@ Never upload user information. It needs to be confidential. Windows+L when on br
 ###### Document at least one key learning or security measure you will implement.
 
 Never upload user information. It needs to be confidential. Windows+L when on break.
+
+Personal example: Im at library doing my work. Need bathroom break. Windows + L before leaving. 
+
+
+
+
+
+Google docs evidence that I read data privacy:
+
+https://docs.google.com/document/d/1cgaJhvatNDcHMf\_My0J2ULFgbxLJ83bPfui6VfhZN3w/edit?usp=sharing
+
+
 
