@@ -18,3 +18,11 @@ Use focus bear!
 
 I now have an extra monitor set up and a laptop stand.
 
+
+
+
+
+https://docs.google.com/document/d/1O\_8cDoC4svO0G72t2mmG3J1X3tddIvfqG\_1JT-rjeig/edit?usp=sharing
+
+
+
