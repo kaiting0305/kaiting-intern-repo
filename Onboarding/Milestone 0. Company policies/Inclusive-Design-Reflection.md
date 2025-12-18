@@ -54,6 +54,10 @@ Document and comment clearly on code/changes. be respectful and be more understa
 
 ###### Reading done: https://www.reddit.com/r/ADHD/comments/ybm31u/productivity\_apps\_are\_bad\_because\_people\_keep/
 
+short summary: 
+
+user dislikes ads in productivity apps. defeats the purpose of focusing. User feels like productivity apps are too focusing on normal workflows with bigger tasks like finish assignment 1, whereas user just wants something to help her track smaller daily tasks like watering plants, brush teeth. 
+
 
 
 
