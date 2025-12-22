@@ -30,7 +30,7 @@ When you are not done with the work and want to commit only when you finish ever
 
 ###### Why is pushing directly to main problematic?
 
-Constant clashes with other team members. If u have a problem, everyone who pulls gets problem. Main is often what clients use. U change it and mess up, the entire software is down. Harder to track each individual change. 
+Constant clashes with other team members. If u have a problem, everyone who pulls gets problem. Main is often what clients use. U change it and mess up, the entire software is down. Harder to track each individual change.
 
 
 
@@ -42,5 +42,65 @@ Makes it clear on who did what changes. Keeps changes between different people s
 
 ###### What happens if two people edit the same file on different branches?
 
-On different branches, nothing will happen. they each have their own version. Only when merging will there be a merge conflict (if edited on the same line.) Branches help make it clear which changes are made to which version of code. 
+On different branches, nothing will happen. they each have their own version. Only when merging will there be a merge conflict (if edited on the same line.) Branches help make it clear which changes are made to which version of code.
+
+
+
+
+
+
+
+##### Write reflections in git\_understanding.md for each of the following commands:
+
+What does each command do?
+
+When would you use it in a real project (hint: these are all really important in long running projects with multiple developers)?
+
+What surprised you while testing these commands?
+
+
+
+###### git checkout main -- <file>
+
+Restore a specific file from main without affecting other changes. 
+
+This could be really  useful when you mess up and need to obtain the original working code from main without touching anything else. Only accessing this specific file will keep all the other files same as what you have been working on. Lets say you work on a task and accidentally deleted a file or want to restart again from the original starting point from main for a specific file. With this git command, you can specifically only grab the specific file you want and keep all the other files where you already made changes on. 
+
+What surprised me was you would get the file from main in the current version, not the version when u obtained all the other files. So if you get all the files and make a branch, then someone merges into main, if you use this command, you will get the file version after the merge, not before. 
+
+
+
+###### git cherry-pick <commit>
+
+Apply a specific commit from another branch without merging the whole branch.
+
+This could be used when there is an urgent bug that needs to be fixed. It is fixed in a certain branch, but you do not want to merge the rest of the files from that branch, only the file that solves the urgent bug. So you only merge the one specific file from that branch. 
+
+What surprised me was how similar is it with merge. Basically the same and can have merge conflicts. 
+
+
+
+###### git log
+
+View commit history and understand how changes evolved.
+
+Can be used in a lot of ways. Used to determine which changes have occurred, by who, and the reasoning (commit messages). If there is a new code that has an error or something you would like to know more about, you can use git log to see who made the change and discuss with the person. 
+
+Im surprised that there are countless options to use after this command. Eg: git log --oneline, git log -p<file>, etc. 
+
+
+
+
+
+###### git blame <file>
+
+See who last modified each line in a file and when.
+
+Can be used when you want more information from a line of code. Who do I ask if i want to ask about this line of code. 
+
+Surprised cuz it only shows who last changed it and not who wrote it. A person can only change a tiny little thing and not be the person who wrote the code, but they will be the one who appears when using git blame. 
+
+
+
+
 
