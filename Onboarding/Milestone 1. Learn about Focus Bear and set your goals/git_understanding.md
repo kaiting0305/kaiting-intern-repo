@@ -28,3 +28,8 @@ I resolved it by opening up the file and manually accepting which version to kee
 
 I learned that I always have to be careful merging. Merge conflict happens when editing same file and line. It will need manual acceptance of change. I know this thing exists and is aware of this type of problem. 
 
+###### Picture proof
+
+https://docs.google.com/document/d/1opxdD_pU9e8QAuoSxldNG0B_gnQxkf-aLhxD_isgZj0/edit?usp=sharing
+
+
