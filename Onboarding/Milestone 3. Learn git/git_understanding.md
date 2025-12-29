@@ -86,7 +86,7 @@ View commit history and understand how changes evolved.
 
 Can be used in a lot of ways. Used to determine which changes have occurred, by who, and the reasoning (commit messages). If there is a new code that has an error or something you would like to know more about, you can use git log to see who made the change and discuss with the person. 
 
-Im surprised that there are countless options to use after this command. Eg: git log --oneline, git log -p<file>, etc. 
+Im surprised that there are countless options to use after this command. Eg: git log --oneline, git log -p<file>, etc. And they can be used on top of one another. eg: git log --oneline -- graph --all
 
 
 
@@ -99,6 +99,26 @@ See who last modified each line in a file and when.
 Can be used when you want more information from a line of code. Who do I ask if i want to ask about this line of code. 
 
 Surprised cuz it only shows who last changed it and not who wrote it. A person can only change a tiny little thing and not be the person who wrote the code, but they will be the one who appears when using git blame. 
+
+
+
+
+
+###### What does git bisect do?
+
+git bisect helps to find which commit among a lot of commits is the 'first bad one'. It finds the one where the code doesn't work using binary search. This will be a lot faster than going through it one by one manually. 
+
+
+
+###### When would you use it in a real-world debugging situation?
+
+Lets say the codebase was working on Monday. Most people went on holiday and when they returned on Friday, they found the code isn't working. There has been a total of 100 commits between Monday and Friday. To find out exactly which commit was the one that disabled the codebase, we can run git bisect to find out the first 'bad' commit. This checks it in binary search. It checks the 50th commit, then 25th (or 75th) .... until it finds the one its looking for. 
+
+
+
+###### How does it compare to manually reviewing commits?
+
+Manually finding commits will take a lot of time. Especially when the file is a large file. Since it is binary, it is exponential. Searching through 100 commits will take about 7 searches before finding the right one. It also does it a lot faster as it is automatic. 
 
 
 
