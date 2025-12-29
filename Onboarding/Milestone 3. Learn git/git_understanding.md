@@ -142,3 +142,23 @@ It may cause miscommunication, misunderstanding, or waste time in communicating.
 
 
 
+###### 
+
+###### Why are PRs important in a team workflow?
+
+PRs are important in a team because other people can check your work before actually merging it into main. Especially for new members, they might be making mistakes more, or not have work up to company standard, or have non-uniformed code, the team might make them make a few changes before accepting it into the codebase. It double-checks code for bugs, security reasons, code styles. It also shows decisions on why the code was changed in this way. It shows history of feedback and can be easier to look back on. 
+
+
+
+###### What makes a well-structured PR?
+
+A well structured PR should have a problem description, analysis, solution/changes along with reasoning, and maybe even automated test results. It should be informative and other collaborators will know what and why code was changed. 
+
+
+
+###### What did you learn from reviewing an open-source PR?
+
+I learned that there is a lot more in a PR than what I believed. My own PR in my practice was only just one line. "making edits to practice pull requests". Short simple. I didn't think too much about it. I didn't expect a PR in a professional environment to have a lot more. I looked at a PR from react and saw that included in someones PR, they included problem description, buggy code behavior plus exact lines of code, code analysis, solution with a few lines of exact code with reasoning, verified results with automated tests, and impact. It was a lot more than I expected. 
+
+
+
