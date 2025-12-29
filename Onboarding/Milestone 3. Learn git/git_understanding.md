@@ -102,6 +102,12 @@ Surprised cuz it only shows who last changed it and not who wrote it. A person c
 
 
 
+Picture proof:
+
+https://docs.google.com/document/d/1\_NRM78tuslT1FKoqg8h3CCQ\_0HpBiyq8HqRtRoAitoc/edit?usp=sharing
+
+
+
 
 
 ###### What does git bisect do?
