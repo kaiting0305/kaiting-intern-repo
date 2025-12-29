@@ -124,3 +124,21 @@ Manually finding commits will take a lot of time. Especially when the file is a 
 
 
 
+###### What makes a good commit message?
+
+A good commit message is one that is not vague to the point where other contributors can not understand what is happening. It is not too specific and cause other contributors to have to understand the code you have written. It should be in human language and inform what problem is solved/ what feature has been added/ what bug has been fixed/ etc. 
+
+
+
+###### How does a clear commit message help in team collaboration?
+
+A clear commit message help keep the codebase clear. Who has done what, and exactly what have they done. Other contributors will be able to understand other peoples work without having to ask more about it to the person who committed and wont have to try to figure out what the other person has done. Keeps the communication clean, clear, and effective. 
+
+
+
+###### How can poor commit messages cause issues later?
+
+It may cause miscommunication, misunderstanding, or waste time in communicating. A commit message that says "fixed bug" may cause misunderstanding and confusion. Exactly which bug was fixed? maybe other people wanted to fix a bug in allowing user to calculate results with invalid inputs but the bug you fixed was about pop up alert errors. It may cause misunderstanding. Maybe ur code did fix it, but later after 2 months, your team realize the code has a small issue, but because the bug was never described, they dont know where to search to debug. 
+
+
+
