@@ -4,7 +4,7 @@
 
 ###### What security measures do you currently follow, and where can you improve?
 
-Already used the default password manager on chrome. Already lock screen when I leave my laptop. Already set up auto turn off screen after 3 min.
+Already used the default password manager on chrome. Already set up auto turn off screen after 3 min.
 
 ###### 
 
@@ -16,7 +16,7 @@ Password manager--> it does it automatically. Setting up screen auto turn off wh
 
 ###### What steps will you take to ensure your passwords and accounts are secure?
 
-Dont use same passwords for everything, keep using a password manager, always be aware of phishing or suspicious links. 
+Dont use same passwords for everything, keep using a password manager, always be aware of phishing or suspicious links.
 
 Check sender email carefully.
 
@@ -31,4 +31,8 @@ Email or message the team/supervisor about the security breach. Change password.
 ###### One new cybersecurity habit:
 
 Ever since I chose one of my gmails as a 'work' account, I have been more cautious to use it. Using other accounts to apply for non important things, more cautious in this gmail.
+
+
+
+A new habit i started is using windows + L when leaving to use the bathroom. Just today, I was with other people and was going to go to the bathroom. Originally, i thought that since im with other people, nothing will probably happen and just went to use the bathroom. I went back after 3 seconds to windows + L because i remembered that it is still safer to still close it when Im not personally there and its just a good practice to maintain.
 
