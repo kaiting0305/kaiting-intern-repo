@@ -370,3 +370,47 @@ By having only one instance of a function or code with multiple references, I ca
 
 
 
+### Refactoring Code for Simplicity
+
+
+
+###### Common Refactoring Techniques
+
+Extract Method - Pull code into a separate function 
+
+Replace Conditional with Polymorphism - Use objects/classes instead of if/else chains
+
+Introduce Parameter Object - Group related parameters into an object
+
+Replace Magic Numbers with Constants - Name your numbers
+
+Simplify Conditional Logic - Use early returns, guard clauses
+
+Replace Nested Conditionals with Guard Clauses - Return early
+
+Decompose Conditional - Extract complex conditions into named functions
+
+Remove Dead Code - Delete unused code
+
+Consolidate Duplicate Conditional Fragments - Move common code outside conditionals
+
+
+
+###### What made the original code complex?
+
+The original code (form claude) had a lot of magic numbers within the code. By defining the constants at the front and forming appropriate enums, the code became a lot cleaner. The original code was long and had multiple purposes, it needs to be split into smaller functions each with one purpose only. The original code passes 8 parameters into a function, we can change this into an object message and the code is a lot more simple, especially when calling the function. The original code also had a lot of stages of conditional clauses (deep nesting) which was harder to follow. 
+
+###### How did refactoring improve it?
+
+There are no magic numbers that bring unclarity to the code. Code becomes a lot cleaner. Wont be too hard to follow as no more deep nesting and more smaller/specific functions. Will be easier to test and maintain code. Code in general is more concise. Replacing conditional w objects is also easier to add onto. Making larger parameter into an object makes code clear and meaningful, as well as easy to add onto in the future. 
+
+
+
+
+
+
+
+
+
+
+
