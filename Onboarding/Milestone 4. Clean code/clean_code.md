@@ -1,4 +1,4 @@
-### Clean code
+## Clean code
 
 
 
@@ -326,7 +326,27 @@ function isValidUser(userObject) {
 
 
 
+### Writing Small, Focused Functions
 
+
+
+###### Why is breaking down functions beneficial?
+
+Every function should only perform one thing. It should not be a complicated function with different purposes. This will make it a lot easier to understand. With more functions with clear names, we are able to understand the general flow without having to understand the code. If it were one huge function, it would also be too vague for us to understand whats going on.
+
+On top of that, if there are any problems, we know exactly which function and step is the one causing the problem Since each step is in its own function. Making smaller functions will also be easier to reuse as there are more 'smaller' functions with specific purposes. 
+
+Additionally, if there are two different purposes in the same function, changing one of the aspects might accidentally affect the other. Editing the code later to fix bugs or just adding feature might mess up the other working component.  
+
+
+
+###### How did refactoring improve the structure of the code?
+
+After refactoring, the code became a lot more readable. My original 'bad' code (from claude) was very lengthy and confusing. At first glance, I didn't know the exact purpose of each block of code. After splitting it into different functions, it became quite clear and easy to process. With the splitting into different functions, if there are any bugs, I know exactly which part of the code is wrong. In the future, if there is a need to use any single function, it does not need to be rewritten. 
+
+
+
+Example: Instead of one huge function processUserOrder, we can split it into 8 different functions each with its own purpose. User validation, item validation, price calculation, payment processing, inventory management, order creation, email notification, and the final main execution function that combines everything into a workflow. In the future, signing in to an account will share the code of user validation. 
 
 
 
