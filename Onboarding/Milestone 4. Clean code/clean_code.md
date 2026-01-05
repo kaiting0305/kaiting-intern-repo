@@ -352,5 +352,21 @@ Example: Instead of one huge function processUserOrder, we can split it into 8 d
 
 
 
+### Avoiding Code Duplication
+
+
+
+###### What were the issues with duplicated code?
+
+With code duplication, the whole document becomes really long and harder to comprehend. If not typing everything out and taking a lot longer, copying and pasting continuously might also cause problem if you accidentally copy and paste wrong. If you need to change a function, you might have to change it in so many places if you have duplicate code. Whereas if you only use a single function that is implemented in multiple places, only changing the function once will get the job done. New teammates will also have to check the code for a longer time. There might be small differences that may be overlooked in the 'duplicate code' that may be intentional or accidental. 
+
+
+
+###### How did refactoring improve maintainability?
+
+By having only one instance of a function or code with multiple references, I can update/change/modify/fix/extend only that one place instead of having to go around the document and searching for  every single one. I might miss out on an instance or have a typo somewhere lost in the long document. It will be better organized as it is not as long of a code and easier to understand. 
+
+
+
 
 
