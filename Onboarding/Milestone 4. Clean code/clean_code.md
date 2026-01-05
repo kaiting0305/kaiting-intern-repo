@@ -190,9 +190,7 @@ basically a shorthand that means to unpack everything and spreads them into a ne
 
 
 
-###### ESLint and Prettier Reflection
-
-I have installed ESLint and Prettier into my VSCode but have not configured and tested it. It seems to be complex trying to make a practice project configuring it all and I won't be needing it when doing future Focus Bear tasks. Instead, I researched into what exactly these two tools do. 
+ESLint and Prettier Reflection
 
 I watched the following video about ESLint and Prettier in VSCode:  https://www.youtube.com/watch?v=E2tbZoTjcQA
 
@@ -203,6 +201,12 @@ ESLint is a tool used to catch code style and quality issues and will give warni
 
 
 Prettier is a tool used to autoformat the code to make it pretty and consistent. For example, if its set to run on save, each time I save a file, Prettier will make sure the file's format is good. Indentations and extra spaces issues will be automatically fixed.
+
+
+
+Usage proof:
+
+https://docs.google.com/document/d/1\_sHC0-lopznt6WLYIwCtsfH2DM0r-EDNeUzVlTtBCh4/edit?usp=sharing
 
 
 
