@@ -408,6 +408,30 @@ There are no magic numbers that bring unclarity to the code. Code becomes a lot 
 
 
 
+### Commenting \& Documentation
+
+Comments should be about **why** and not what the code does. 
+
+
+
+###### When should you add comments?
+
+Should have comments for why you chose this approach, explaining business rule to better understand why this method is used of purpose of this function/feature, explaining complex algorithms if you can't break it apart into smaller ones, explaining tradeoffs with this method of doing things, warnings about constraints or other things, to do work/temporary workarounds and let it be known that this is just a temporary solution, can also include the timestamp.  
+
+When there is a public API that needs documentations so other developers only need to know what the function does and do not need to know the entire happenings inside the function. 
+
+
+
+###### When should you avoid comments and instead improve the code?
+
+When simple code needs further explaining, make the code more self explanatory. 
+
+When variable names are unclear, change it. 
+
+When function too complex and need explaining, consider breaking the function down into multiple. 
+
+
+
 
 
 
