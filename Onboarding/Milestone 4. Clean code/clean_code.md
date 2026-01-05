@@ -208,6 +208,126 @@ Prettier is a tool used to autoformat the code to make it pretty and consistent.
 
 
 
+### Naming Variables \& Functions
+
+###### What makes a good variable or function name?
+
+A good variable or function name will be descriptive, specific, and show the intent. For example, instead of date, use currentDate. instead of check, use isUserAdult. Other programmers should not have to guess what a variable or function does. They should be able to find out based on the name. 
+
+
+
+###### What issues can arise from poorly named variables?
+
+Poorly names variables can cause other programmers or even yourself to have difficulty understanding your code. It will be easier to mix up variables and will take both more time and more mental strain on understanding code. 
+
+
+
+###### How did refactoring improve code readability?
+
+Refactoring code improves the readability of code tremendously. The original bad code below was really ambiguous and you cant tell what the function is doing on first glance. In the bad example, function named calc does not tell us exactly what it calculates. In the refactored version, we give it a clear name calculatePriceWithTax. We also have clear and descriptive names for every variable in the fixed version. Better to understand for people who never seen it before, more clearer for the programmer. 
+
+
+
+**Bad code (from claude)**
+
+
+
+function calc(a, b, c) {
+
+&nbsp; const x = a \* b;
+
+&nbsp; const y = x \* (c / 100);
+
+&nbsp; return x + y;
+
+}
+
+
+
+const u = {
+
+&nbsp; n: 'Kai',
+
+&nbsp; a: 21,
+
+&nbsp; e: 'kai@example.com'
+
+};
+
+
+
+function chk(obj) {
+
+&nbsp; if (!obj.n || !obj.e) {
+
+&nbsp;   return false;
+
+&nbsp; }
+
+&nbsp; if (obj.a < 18) {
+
+&nbsp;   return false;
+
+&nbsp; }
+
+&nbsp; return true;
+
+}
+
+
+
+--------------------------------------------------
+
+**fixed code**
+
+function calculatePriceWithTax(price, quantity, taxRate) {
+
+&nbsp; const subtotal = price \* quantity;
+
+&nbsp; const taxAmount = subtotal \* (taxRate / 100);
+
+&nbsp; return subtotal + taxAmount;
+
+}
+
+
+
+const user = {
+
+&nbsp; name: 'Kai',
+
+&nbsp; age: 21,
+
+&nbsp; email: 'kai@example.com'
+
+};
+
+
+
+function isValidUser(userObject) {
+
+&nbsp; if (!userObject.name || !userObject.email) {
+
+&nbsp;   return false;
+
+&nbsp; }
+
+&nbsp; if (userObject.age < 18) {
+
+&nbsp;   return false;
+
+&nbsp; }
+
+&nbsp; return true;
+
+}
+
+
+
+
+
+
+
 
 
 
