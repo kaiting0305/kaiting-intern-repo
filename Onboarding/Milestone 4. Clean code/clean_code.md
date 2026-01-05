@@ -350,6 +350,14 @@ Example: Instead of one huge function processUserOrder, we can split it into 8 d
 
 
 
+Personal example:
+
+Originally, I had a lot of code in my own project about player movement. I made checkCollision its own separate function and reused it multiple times. Same with checkInWindow function. It makes the code less repetitive and cleaner. I can easily reuse the two functions as well. 
+
+link: https://docs.google.com/document/d/1CR8WiKEXnnj2Lb0e9WyQINB12ylTaqlFVC1kWrRiX60/edit?usp=sharing
+
+
+
 
 
 ### Avoiding Code Duplication
@@ -365,6 +373,14 @@ With code duplication, the whole document becomes really long and harder to comp
 ###### How did refactoring improve maintainability?
 
 By having only one instance of a function or code with multiple references, I can update/change/modify/fix/extend only that one place instead of having to go around the document and searching for  every single one. I might miss out on an instance or have a typo somewhere lost in the long document. It will be better organized as it is not as long of a code and easier to understand. 
+
+
+
+Personal example:
+
+Originally, I had a lot of code in my own project about player movement. I made checkCollision its own separate function and reused it multiple times. Same with checkInWindow function. It makes the code less repetitive and cleaner. I can easily reuse the two functions as well. 
+
+link: https://docs.google.com/document/d/1CR8WiKEXnnj2Lb0e9WyQINB12ylTaqlFVC1kWrRiX60/edit?usp=sharing
 
 
 
@@ -403,6 +419,16 @@ The original code (form claude) had a lot of magic numbers within the code. By d
 ###### How did refactoring improve it?
 
 There are no magic numbers that bring unclarity to the code. Code becomes a lot cleaner. Wont be too hard to follow as no more deep nesting and more smaller/specific functions. Will be easier to test and maintain code. Code in general is more concise. Replacing conditional w objects is also easier to add onto. Making larger parameter into an object makes code clear and meaningful, as well as easy to add onto in the future. 
+
+
+
+
+
+Personal example:
+
+Originally, I had a lot of code in my own project about player movement. I made checkCollision its own separate function and reused it multiple times. Same with checkInWindow function. It makes the code less repetitive and cleaner. I can easily reuse the two functions as well.
+
+link: https://docs.google.com/document/d/1CR8WiKEXnnj2Lb0e9WyQINB12ylTaqlFVC1kWrRiX60/edit?usp=sharing
 
 
 
