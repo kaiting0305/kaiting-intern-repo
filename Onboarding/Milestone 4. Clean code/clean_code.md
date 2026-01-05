@@ -522,5 +522,43 @@ Guard clauses work really well in finding out errors/invalid inputs at the very 
 
 
 
+### Writing Unit Tests for Clean Code
+
+I have chose to use Jest for js to test
+
+Testing process and evidence:
+
+https://docs.google.com/document/d/1s1F4YMKUjimI6cGOoy2PPwQxXAIQOl2g4Mu9Gl\_jGHo/edit?usp=sharing
+
+
+
+###### How do unit tests help keep code clean?
+
+Unit tests help keep it clear which tests are being tested. We can also sort and group related tests together into a test suite. We can then test many tests at the same time. After running, it will first give an overview/summary of the results of all the tests. It will then pull out any fails and tell the test description, expected, and received. This is quite nice if there is a set of rules or just tests that we want to ensure that our code works. We can run all these tests easily in one go while we are editing our code. 
+
+
+
+###### What issues did you find while testing?
+
+I had an issue because i originally had a file called test.js that was unrelated to calculator.test.js and i did not want it to be included in the Jest test. I learned that all files with the ending of test.js, specs.js, and all files inside \_\_tests\_\_ folders will automatically me considered to be tested by Jest. I removed the additional test.js. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
