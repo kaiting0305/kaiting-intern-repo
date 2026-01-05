@@ -434,6 +434,62 @@ When function too complex and need explaining, consider breaking the function do
 
 
 
+### Handling Errors \& Edge Cases
+
+
+
+###### Error Handling Strategies
+
+Guard Clauses - Check preconditions early and exit(
+
+Eg:   
+
+&nbsp; // Guard clause: validate user
+
+&nbsp; if (!user) {
+
+&nbsp;   throw new Error('User is required for discount calculation');
+
+&nbsp; }
+
+&nbsp; 
+
+&nbsp; if (!user.joinedYear || user.joinedYear < 1900 || user.joinedYear > new Date().getFullYear()) {
+
+&nbsp;   throw new Error(`Invalid user joinedYear: ${user.joinedYear}`);
+
+&nbsp; }
+
+)
+
+Validation - Verify inputs before processing
+
+Fail Fast - Detect errors as early as possible
+
+Descriptive Errors - Make error messages helpful
+
+Error Recovery - Handle errors gracefully when possible
+
+Default Values - Provide sensible fallbacks
+
+
+
+###### What was the issue with the original code?
+
+Original code crashes on invalid inputs, null inputs, negative or zero numbers that may cause wrong calculations (even if it doesnt crash), and missing properties. It does not have a safety catch in case action fails if data/parameter is not found. There is no input validation, null or undefined checks, edge cases handling, and execution error handling. 
+
+With no exceptions thrown or any error message, we dont know what went wrong and will be difficult for us to fix the code. Maybe because of an invalid input, the code will not run, but it is only until towards the end of the code that we use the information and we have difficulty finding out where and what went wrong. 
+
+
+
+###### How does handling errors improve reliability?
+
+Guard clauses work really well in finding out errors/invalid inputs at the very start. It helps prevent invalid inputs, confirm external dependancies, checks for null inputs. Error handling orevents errors with mathematical and array edge cases, and checks if objects and parameters exist in the database and have rollback if there is a failure to execute a code. Error messages should also be described so developers know exactly what is wrong. Can create custom error types to throw. With error handling, if an optional feature fails, the main program can still run and not just crash. 
+
+
+
+
+
 
 
 
