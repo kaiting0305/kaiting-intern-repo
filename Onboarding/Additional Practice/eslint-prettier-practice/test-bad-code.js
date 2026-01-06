@@ -1,11 +1,8 @@
-const unused = 5;  // unused variable
-const name = "Kai"  // missing semicolon (Prettier fixes this)
+const name = 'Kai';
 
-function test() {
-  var x = 10;  // using 'var' instead of 'const'/'let'
-  return x
+// Fixed: using === instead of =
+if (name === 'Kai') {
+  console.log('hello');
 }
 
-if (name = "Kai") {  // assignment instead of comparison
-  console.log("hello")
-}
+//removed unused variables and unused functions
