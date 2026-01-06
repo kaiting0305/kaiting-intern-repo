@@ -1,2 +1,2 @@
 const x="bad code"
-function test(){return x}   
+function test(){return x}        
