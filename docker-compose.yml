@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  database:
+    image: postgres:14
+    container_name: focusbear-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: focusbear
+      POSTGRES_PASSWORD: dev_password_123
+      POSTGRES_DB: focusbear_dev
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U focusbear"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres-data:
