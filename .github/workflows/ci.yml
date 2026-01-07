@@ -20,12 +20,13 @@ jobs:
           node-version: '18'
       
       - name: Install dependencies
+        working-directory: ./Onboarding/Additional Practice/eslint-prettier-practice
         run: npm install
       
       - name: Run ESLint
-        run: npm run lint
         working-directory: ./Onboarding/Additional Practice/eslint-prettier-practice
+        run: npm run lint
       
       - name: Run Prettier check
-        run: npm run format:check
         working-directory: ./Onboarding/Additional Practice/eslint-prettier-practice
+        run: npm run format:check
