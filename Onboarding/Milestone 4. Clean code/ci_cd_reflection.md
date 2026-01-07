@@ -6,6 +6,16 @@ Continuous deployment: automatically deploying the code to production after it p
 
 
 
+
+
+for every commit, husky will make checks locally with eslint and prettier. It will try to autofix if possible of block commits if fails to pass the test and can't autofix. 
+
+
+
+for every push or pr, GitHub actions will make a virtual machine and perform checks on all the code. It will show whether it passes or fails the tests. 
+
+
+
 ###### What is the purpose of CI/CD?
 
 The purpose of CI and CD is having an automatic system that catches bugs and bad code with minimum work. This will make sure the codebase is clean and up to par. Manually testing and deploying code would be very time-consuming. 
