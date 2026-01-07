@@ -46,3 +46,53 @@ Proof of Husky installation, configuration, and experimentation:
 
 https://docs.google.com/document/d/1oenP4wSwTARm1shS2Qt57ZiPoObSkM11IbCaqvkqWIc/edit?usp=sharing
 
+
+
+
+
+
+
+##### Problems I ran into while setting CI and husky up
+
+1. ###### Husky trying to run in CI
+
+CI tried to run prepare script which calls husky
+
+Husky can't set up hooks in a temporary VM
+
+Fixed: Added --ignore-scripts to npm install
+
+
+
+###### 2\. Missing format:check script
+
+CI tried to run npm run format:check
+
+Script didn't exist in package.json
+
+Fixed: Added "format:check": "prettier --check ."
+
+
+
+###### 3\. Permission denied on ESLint
+
+Linux permissions issue in GitHub Actions VM
+
+Fixed: Added chmod -R +x node\_modules/.bin
+
+
+
+###### 4\. ESLint errors (Jest globals)
+
+ESLint didn't know about describe, test, expect
+
+Fixed: Added "jest": true to .eslintrc.json
+
+
+
+###### 5\. Code not formatted
+
+Files weren't formatted with Prettier
+
+Fixed: Ran npm run format
+
