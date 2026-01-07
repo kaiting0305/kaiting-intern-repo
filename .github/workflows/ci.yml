@@ -21,7 +21,7 @@ jobs:
       
       - name: Install dependencies
         working-directory: ./Onboarding/Additional Practice/eslint-prettier-practice
-        run: npm install
+        run: npm install --ignore-scripts
       
       - name: Run ESLint
         working-directory: ./Onboarding/Additional Practice/eslint-prettier-practice
