@@ -44,3 +44,11 @@ PostgreSQL supports complex queries, joins, and relationships between tables, st
 
 
 
+
+
+proof of using typeorm and using CURD methods w it
+
+https://docs.google.com/document/d/1OC1FBhT7kYX1ZmjcOtAepcAftu\_Z39uBvMck0EQNoVQ/edit?usp=sharing
+
+
+
