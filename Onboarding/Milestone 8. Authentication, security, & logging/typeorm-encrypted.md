@@ -22,7 +22,11 @@ Store then in .env and never commit it to code. use randomly generated keys of 3
 
 ###### What are the trade-offs between encrypting at the database level vs. the application level?
 
+Database level: encrypts the physical files on hard drive. when the database is active and running, it will unlock and automatically decrypt, so people who steal the hard drive wont see the information. However, if someone logs in with database credentials, it will unlock. On the other hand, application level: you can only see the information on the app. 
+
 For database level encryption, it is not as secure as anyone with access to the database can see all the information, but because it is not encrypted, we can have queries and searches easily. For application level, because it is even encrypted in the database itself, we cant query and search efficiently. May need to set aside more space to hold hash values for lookups.
+
+Use application level for very very sensitive information where its better to not even let administrators or cloud to access. 
 
 
 
